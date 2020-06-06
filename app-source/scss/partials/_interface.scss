@@ -781,6 +781,10 @@ aside {
 	footer {
 		
 		border-right: 1px solid var(--matcha-azul-sidebar);
+	  
+	  	li {
+		  margin-top: 3px;
+		}
 
 		#cat-title {
 
@@ -837,17 +841,27 @@ aside {
 
 		  padding: 0 10px 0 43px;
 		  background-position: left 21px center;
-
-		  &.selected {
-
-			&#cat-all	{ background-image: var(--all-selected); }
-			&#cat-fav	{ background-image: var(--favorite-selected); }
-			&#cat-none	{ background-image: var(--none-selected); }
-		  }
+		  border-left: 3px solid var(--matcha-azul-sidebar);
 
 		  &#cat-none	{
 
 			background-position-x: 21px;
+		  }
+
+		  &:hover {
+
+			background-color: var(--matcha-azul-sidebar-hover);
+			border-left: 3px solid var(--matcha-azul-selected);
+		  }
+
+		  &.selected {
+			
+			background-color: var(--matcha-azul-selected);
+		  	border-left: 3px solid var(--matcha-azul-selected);
+
+			&#cat-all	{ background-image: var(--all-selected); }
+			&#cat-fav	{ background-image: var(--favorite-selected); }
+			&#cat-none	{ background-image: var(--none-selected); }
 		  }
 		}
 	  }
