@@ -92,8 +92,7 @@ gulp.task('icns', () => {
 
 gulp.task('icon', () => {	
 	
-	return gulp.src('./app-source/assets/AppIcon.appiconset/icon_128x128@2x.png')
-		.pipe(rename('icon.png'))
+	return gulp.src('./app-source/assets/icon/icon.png')
 		.pipe(gulp.dest('./dist/assets/icon/'))
 })
 
@@ -172,7 +171,6 @@ gulp.task('build', gulp.series(
 	'js',
 	'svg',
 	'i18n',
-	'icns',
 	'icon',
 	'devtools',
 	'webprefs'
