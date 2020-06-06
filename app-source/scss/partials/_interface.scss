@@ -865,6 +865,29 @@ aside {
 		  }
 		}
 	  }
+
+	  #categories {
+
+		button {
+
+		  padding: 0 10px 0 43px;
+		  background-position: left 21px center;
+		  border-left: 3px solid var(--matcha-azul-sidebar);
+
+		  &:hover {
+
+			background-color: var(--matcha-azul-sidebar-hover);
+			border-left: 3px solid var(--matcha-azul-selected);
+		  }
+		  
+		  &.selected {
+
+			background-image: var(--category-selected);
+			background-color: var(--matcha-azul-selected);
+			border-left: 3px solid var(--matcha-azul-selected);
+		  }
+		}
+	  }	  
 	}
 	
 	main {
