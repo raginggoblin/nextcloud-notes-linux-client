@@ -806,29 +806,35 @@ aside {
 
 			display: none;
 		}
-		
-		.search-field {
+
+	  	.search-field {
+
+			height: 40px;
+			padding: 0px 10px;
 			
 			#search {
 				
 				background-color: var(--matcha-azul-sidebar);
-				border-color: var(--matcha-azul-text-light);
-				color: var(--matcha-azul-text-light);
-				box-shadow: inset 0 2px 2px rgba(0,0,0,0.1);
-				
-				&.selected {
-					border-color: var(--matcha-azul-selected);
+				border: 1px solid var(--matcha-azul-sidebar);
+				color: var(--matcha-azul-text-lighter);
+			    height: 34px;
+			  	font-size: 16px;
+			  
+			  	&:focus {
+				  	outline: none;
+					border: 1px solid var(--matcha-azul-selected);
 				}
-			
-				::placeholder {
+
+			  	&::placeholder {
 				  color: var(--matcha-azul-text-lighter);
 				  opacity: 1;
 				}
 			}
-			
-			#clear {
-				
-			}
+
+		  #clear {
+
+			top: 7px;
+		  }
 		}
 		
 		button {
