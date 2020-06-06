@@ -90,6 +90,8 @@ function createWindow() {
 			spellcheck: true
 		}
 	})
+
+	win.setIcon(path.join(__dirname, '../assets/icon/icon.png'))
 	
 	function saveWindowBounds() {
 		
