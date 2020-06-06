@@ -781,6 +781,11 @@ aside {
 	footer {
 		
 		border-right: 1px solid var(--matcha-azul-sidebar);
+
+		#cat-title {
+
+			display: none;
+		}
 		
 		.search-field {
 			
@@ -809,6 +814,8 @@ aside {
 		button {
 		
 			color: var(--matcha-azul-text-lighter);
+			font-size: 16px;
+			line-height: 34px;
 			
 			&:focus {
 				
@@ -823,6 +830,20 @@ aside {
 				background-color: var(--accent-light);
 			}
 		}
+
+	#fixed-categories {
+
+		button {
+
+		  padding: 0 10px 0 43px;
+		  background-position: left 21px center;
+
+		  &#cat-none	{
+
+			background-position-x: 21px;
+		  }
+		}
+	  }
 	}
 	
 	main {
