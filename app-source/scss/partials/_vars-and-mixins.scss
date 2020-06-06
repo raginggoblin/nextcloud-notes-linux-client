@@ -123,3 +123,60 @@
 	--table-head:			#484848;
 	--table-stripe:			rgba(255,255,255,.03);
 }
+
+[data-theme^="matcha-azul"] {
+	
+	// common
+	
+	--text:					#373e4d;
+	--text-lighter:			#8c9197;
+	--text-light:			#ffffff;
+	--app-color-focus:		#3797da;
+	--dividers:				#cbcdc8;
+	--header-border:		#71747c;
+
+	// theme colors from nautilus
+	--matcha-azul-sidebar:		#30343e;
+	--matcha-azul-header:		#1b1d24;
+	--matcha-azul-selected: 	#3797da;
+	--matcha-azul-white:		#ffffff;
+	--matcha-azul-tabs:			#f7f7f7;
+	--matcha-azul-text-light:	#ffffff;
+	--matcha-azul-text-lighter:	#8c9197;
+	--matcha-azul-text:			#373e4d;
+	
+	// toolbar
+	
+	--toolbar-hover:		#33353B;
+	--toolbar-border:		#33353B;
+	
+	// edit
+	
+	--edit: 				#f9f9f9;
+	--edit-hover:			#f6f6f6;
+	--edit-active: 			#f3f3f9;
+	
+	// modal
+	
+	--window:				#2dff00;
+	--input-color: #227310;
+	--input-border: #85c274;
+	--input-background: #041601;
+	--select: #4ef512;
+	--select-border: #0e2907;
+	
+	// buttons
+	
+	--button: #74ccb8;
+	--button-color: #407871;
+	--button-border: #63c8b2;
+	
+	// note
+	
+	--code: #c11cc9;
+	--code-color: #6b1972;
+	--mark: #4b1356;
+	--table-border: #950fef;
+	--table-head: #710ad0;
+	--table-stripe: #6a0bd7;
+}
