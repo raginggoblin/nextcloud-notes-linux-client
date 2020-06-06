@@ -838,6 +838,13 @@ aside {
 		  padding: 0 10px 0 43px;
 		  background-position: left 21px center;
 
+		  &.selected {
+
+			&#cat-all	{ background-image: var(--all-selected); }
+			&#cat-fav	{ background-image: var(--favorite-selected); }
+			&#cat-none	{ background-image: var(--none-selected); }
+		  }
+
 		  &#cat-none	{
 
 			background-position-x: 21px;
