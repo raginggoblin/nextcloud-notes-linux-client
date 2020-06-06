@@ -11,3 +11,10 @@ build
 npm-debug.log
 .nova/
 .vscode/
+
+# Build artifacts
+dist/
+
+# IntelliJ files
+.idea/
+*.iml
