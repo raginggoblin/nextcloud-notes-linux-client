@@ -10,7 +10,10 @@
       "asc": "Aufsteigend",
       "os": "OS Standardeinstellung",
       "light": "hell",
-      "dark": "dunkel"
+      "dark": "dunkel",
+      "matcha": {
+        "azul": "Matcha azul"
+      }
     },
     "label": {
       "sort": "Notizen sortieren nach",

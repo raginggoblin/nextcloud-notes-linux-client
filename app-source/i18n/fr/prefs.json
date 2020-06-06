@@ -10,7 +10,10 @@
       "asc": "Ascendant",
       "os": "Système par défaut",
       "light": "Clair",
-      "dark": "Sombre"
+      "dark": "Sombre",
+      "matcha": {
+        "azul": "Matcha azul"
+      }
     },
     "label": {
       "sort": "Trier les notes par",

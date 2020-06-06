@@ -10,7 +10,10 @@
       "asc": "Ascendente",
       "os": "Predeterminado del SO",
       "light": "Claro",
-      "dark": "Oscuro"
+      "dark": "Oscuro",
+      "matcha": {
+        "azul": "Matcha azul"
+      }
     },
     "label": {
       "sort": "Ordenar notas por",

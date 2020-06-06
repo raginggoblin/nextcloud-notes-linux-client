@@ -10,7 +10,10 @@
       "asc": "Ascendente",
       "os": "Predefinito",
       "light": "chiaro",
-      "dark": "scuro"
+      "dark": "scuro",
+      "matcha": {
+        "azul": "Matcha azul"
+      }
     },
     "label": {
       "sort": "Ordina per",
