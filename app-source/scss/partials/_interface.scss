@@ -1175,6 +1175,11 @@ aside {
 		outline: none;
 		border: 1px solid var(--matcha-azul-selected);
 	  }
+	  
+	  &.active {
+		border: 1px solid var(--matcha-azul-header);
+		background-color: var(--matcha-azul-sidebar-hover);
+	  }
 	}
 
 	i.separator {
