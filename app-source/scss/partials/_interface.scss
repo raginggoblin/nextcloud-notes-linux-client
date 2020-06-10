@@ -1171,16 +1171,16 @@ aside {
 		border-color: var(--matcha-azul-sidebar-hover);
 	  }
 
-	  &.selected {
-		background-color: var(--matcha-azul-header);
-		border-color: var(--matcha-azul-header);
+	  &:focus {
+		outline: none;
+		border: 1px solid var(--matcha-azul-selected);
 	  }
 	}
 
 	i.separator {
 
-	  border-left-color: var(--header-border);
-	  border-right-color: var(--dividers);
+	  border-left: var(--matcha-azul-text-lighter);
+	  border-right-color: var(--matcha-azul-text-lighter);
 	}
   }
 
