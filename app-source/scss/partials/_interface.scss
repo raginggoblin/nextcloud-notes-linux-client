@@ -1071,7 +1071,7 @@ aside {
 	  }
 
 	  &:hover {
-		background-color: var(--matcha-azul-sidebar-hover);
+		background-color: var(--matcha-azul-grey-4);
 	  }
 	}
 
@@ -1086,7 +1086,7 @@ aside {
 	  }
 
 	  &:hover {
-		background-color: var(--matcha-azul-sidebar-hover);
+		background-color: var(--matcha-azul-grey-4);
 	  }
 	}
   }
@@ -1120,12 +1120,12 @@ aside {
 
 	  .side-cat {
 
-		color: var(--matcha-azul-grey-8);
+		color: var(--matcha-azul-grey-6);
 		background-image: var(--category-middlebar);
 	  }
 
 	  &:hover {
-		background-color: var(--matcha-azul-grey-2);
+		background-color: var(--matcha-azul-grey-1);
 	  }
 
 	  &.selected {
