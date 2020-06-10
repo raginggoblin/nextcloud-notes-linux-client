@@ -980,7 +980,7 @@ aside {
 
 	  &:focus {
 
-		background-color: rgba(255,255,255,.075);
+		background-color: rgba(255, 255, 255, .075);
 		outline: none;
 	  }
 
@@ -1000,7 +1000,7 @@ aside {
 		background-position: left 21px center;
 		border-left: 3px solid var(--matcha-azul-sidebar);
 
-		&#cat-none	{
+		&#cat-none {
 
 		  background-position-x: 21px;
 		}
@@ -1016,9 +1016,17 @@ aside {
 		  background-color: var(--matcha-azul-selected);
 		  border-left: 3px solid var(--matcha-azul-selected);
 
-		  &#cat-all	{ background-image: var(--all-selected); }
-		  &#cat-fav	{ background-image: var(--favorite-selected); }
-		  &#cat-none	{ background-image: var(--none-selected); }
+		  &#cat-all {
+			background-image: var(--all-selected);
+		  }
+
+		  &#cat-fav {
+			background-image: var(--favorite-selected);
+		  }
+
+		  &#cat-none {
+			background-image: var(--none-selected);
+		  }
 		}
 	  }
 	}
@@ -1048,7 +1056,7 @@ aside {
   }
 
   main {
-	
+
 	background-color: var(--matcha-azul-sidebar);
 
 	#edit {
@@ -1057,29 +1065,41 @@ aside {
 	  background-image: var(--pencil-white);
 	  opacity: .7;
 
-	  &:focus { background-image: var(--pencil); }
+	  &:focus {
+		background-image: var(--pencil);
+	  }
 
-	  &:hover { background-image: var(--pencil); }
+	  &:hover {
+		background-image: var(--pencil);
+	  }
 
-	  &:active { opacity: 1; }
+	  &:active {
+		opacity: 1;
+	  }
 	}
 
 	#edit.editing {
 
 	  background-image: var(--eye-white);
 
-	  &:focus { background-image: var(--eye); }
+	  &:focus {
+		background-image: var(--eye);
+	  }
 
-	  &:hover { background-image: var(--eye); }
+	  &:hover {
+		background-image: var(--eye);
+	  }
 
-	  &:active { background-image: var(--eye); }
+	  &:active {
+		background-image: var(--eye);
+	  }
 	}
   }
 
   aside {
 
 	border-right: 1px solid var(--header-border);
-	background-color: rgba(30,30,30,.75);
+	background-color: rgba(30, 30, 30, .75);
 
 	#result {
 
@@ -1094,7 +1114,7 @@ aside {
 
 
 	  .side-text {
-		
+
 		max-width: 97%;
 
 		.excerpt {
@@ -1108,7 +1128,7 @@ aside {
 		color: var(--matcha-azul-grey-8);
 		background-image: var(--category-middlebar);
 	  }
-	  
+
 	  &:hover {
 		background-color: var(--matcha-azul-grey-2);
 	  }
@@ -1120,23 +1140,27 @@ aside {
 		.side-title,
 		.side-text,
 		.side-cat,
-		.excerpt { color: var(--matcha-azul-text-light); }
-
-		.side-cat { background-image: var(--category-selected); }
-	  }
-	  
-	  	&:after {
-		  left: 0px;
+		.excerpt {
+		  color: var(--matcha-azul-text-light);
 		}
+
+		.side-cat {
+		  background-image: var(--category-selected);
+		}
+	  }
+
+	  &:after {
+		left: 0px;
+	  }
 	}
   }
 
   .editor-toolbar {
-	
+
 	background-color: var(--matcha-azul-sidebar);
-	
+
 	i {
-	  	background-color: var(--matcha-azul-text-lighter);
+	  background-color: var(--matcha-azul-text-lighter);
 	}
 
 	button {
@@ -1146,7 +1170,7 @@ aside {
 		background-color: var(--matcha-azul-sidebar-hover);
 		border-color: var(--matcha-azul-sidebar-hover);
 	  }
-	  
+
 	  &.selected {
 		background-color: var(--matcha-azul-header);
 		border-color: var(--matcha-azul-header);
@@ -1162,6 +1186,9 @@ aside {
 
   .CodeMirror {
 
+	background-image: unset;
+	background-color: var(--matcha-azul-tabs);
+
 	.CodeMirror-cursor {
 
 	  border-left: 1px solid white;
@@ -1170,8 +1197,11 @@ aside {
 
   .editor-preview {
 
-	padding: 22px;
 	background-image: unset;
+	padding: 22px;
+  }
+  
+  .editor-preview-active {
 	background-color: var(--matcha-azul-white);
   }
 }
