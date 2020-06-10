@@ -1048,8 +1048,8 @@ aside {
   }
 
   main {
-
-	background-image: var(--texture);
+	
+	background-color: var(--matcha-azul-sidebar);
 
 	#edit {
 
@@ -1132,13 +1132,24 @@ aside {
   }
 
   .editor-toolbar {
+	
+	background-color: var(--matcha-azul-sidebar);
+	
+	i {
+	  	background-color: var(--matcha-azul-text-lighter);
+	}
 
 	button {
 
-	  &.active {
+	  &:hover {
 
-		background-color: var(--app-dark);
-		border-color: var(--app-dark);
+		background-color: var(--matcha-azul-sidebar-hover);
+		border-color: var(--matcha-azul-sidebar-hover);
+	  }
+	  
+	  &.selected {
+		background-color: var(--matcha-azul-header);
+		border-color: var(--matcha-azul-header);
 	  }
 	}
 
@@ -1156,6 +1167,13 @@ aside {
 	  border-left: 1px solid white;
 	}
   }
+
+  .editor-preview {
+
+	padding: 22px;
+	background-image: unset;
+	background-color: var(--matcha-azul-white);
+  }
 }
 
 [data-user="matcha-azul"] {
@@ -1167,6 +1185,6 @@ aside {
 
   aside {
 
-	background-color: var(--matcha-azul-tabs)
+	background-color: var(--matcha-azul-white)
   }
 }
