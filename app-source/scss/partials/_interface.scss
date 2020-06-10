@@ -1063,35 +1063,30 @@ aside {
 
 	  border: 0;
 	  background-image: var(--pencil-white);
-	  opacity: .7;
-
+	  background-color: var(--matcha-azul-text-lighter);
+	  opacity: 1;
+	  
 	  &:focus {
-		background-image: var(--pencil);
+		border: 1px solid var(--matcha-azul-selected);
 	  }
 
 	  &:hover {
-		background-image: var(--pencil);
-	  }
-
-	  &:active {
-		opacity: 1;
+		background-color: var(--matcha-azul-sidebar-hover);
 	  }
 	}
 
 	#edit.editing {
 
-	  background-image: var(--eye-white);
+	  background-image: var(--save);
+	  background-color: var(--matcha-azul-text-lighter);
+	  opacity: 1;
 
 	  &:focus {
-		background-image: var(--eye);
+		border: 1px solid var(--matcha-azul-selected);
 	  }
 
 	  &:hover {
-		background-image: var(--eye);
-	  }
-
-	  &:active {
-		background-image: var(--eye);
+		background-color: var(--matcha-azul-sidebar-hover);
 	  }
 	}
   }
