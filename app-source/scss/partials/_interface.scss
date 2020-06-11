@@ -922,6 +922,11 @@ aside {
 	  background-color: var(--matcha-azul-scrollbar);
 	  outline: 1px solid slategrey;
 	}
+	
+	::selection {
+	  color: var(--matcha-azul-text-light);
+	  background-color: var(--matcha-azul-selected);
+	}
   }
 
   #frame {
@@ -1189,6 +1194,11 @@ aside {
 
 	background-image: unset;
 	background-color: var(--matcha-azul-tabs);
+
+	::selection {
+	  color: var(--matcha-azul-text-light);
+	  background-color: var(--matcha-azul-selected);
+	}
 
 	.CodeMirror-cursor {
 
