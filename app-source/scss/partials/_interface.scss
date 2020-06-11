@@ -1064,7 +1064,7 @@ aside {
 
 	  border: 0;
 	  background-image: var(--pencil-white);
-	  background-color: var(--matcha-azul-text-lighter);
+	  background-color: var(--matcha-azul-grey-4);
 	  opacity: 1;
 	  
 	  &:focus {
@@ -1072,14 +1072,14 @@ aside {
 	  }
 
 	  &:hover {
-		background-color: var(--matcha-azul-grey-4);
+		background-color: var(--matcha-azul-grey-3);
 	  }
 	}
 
 	#edit.editing {
 
 	  background-image: var(--save);
-	  background-color: var(--matcha-azul-text-lighter);
+	  background-color: var(--matcha-azul-grey-4);
 	  opacity: 1;
 
 	  &:focus {
@@ -1087,7 +1087,7 @@ aside {
 	  }
 
 	  &:hover {
-		background-color: var(--matcha-azul-grey-4);
+		background-color: var(--matcha-azul-grey-3);
 	  }
 	}
   }
@@ -1121,7 +1121,7 @@ aside {
 
 	  .side-cat {
 
-		color: var(--matcha-azul-grey-6);
+		color: var(--matcha-azul-grey-7);
 		background-image: var(--category-middlebar);
 	  }
 
