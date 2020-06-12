@@ -180,3 +180,58 @@ footer {
 	
 	body { background-color: #383838; }
 }
+
+[data-theme="matcha-azul"] {
+
+  header {
+
+	color: var(--matcha-azul-text-light);
+	background-color: var(--matcha-azul-header);
+  }
+
+  .scroll {
+	overflow: hidden;
+  }
+
+  form {
+
+	ul {
+
+	  li {
+
+		input[type="url"],
+		input[type="text"],
+		input[type="number"] {
+
+		  border-color: var(--matcha-azul-grey-6);
+		  
+		  &:focus,
+		  &:active {
+			outline: none;
+			border-color: var(--matcha-azul-selected);
+		  }
+		}
+	  }
+	}
+	
+	footer {
+	  
+	  .ui-button {
+	  
+	    &:active,
+		&:focus {
+		  border-color: var(--matcha-azul-selected);
+		  border-style: solid;
+		  border-width: 1px;
+		  background-color: var(--matcha-azul-tabs);
+		  color: var(--matcha-azul-text);
+	    }
+	  }
+	}
+  }
+}
+
+[data-user="matcha-azul"] {
+
+  body { background-color: var(--matcha-azul-white); }
+}

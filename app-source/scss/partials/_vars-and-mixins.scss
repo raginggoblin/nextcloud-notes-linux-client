@@ -169,24 +169,15 @@
 	// modal
 	
 	--window:				#2dff00;
-	--input-color: #227310;
-	--input-border: #85c274;
-	--input-background: #041601;
+	--input-color: 					var(--matcha-azul-text);
+	--input-border: 				var(--matcha-azul-grey-6);
+	--input-background: 			var(--matcha-azul-white);
 	--select: #4ef512;
 	--select-border: #0e2907;
 	
 	// buttons
 	
-	--button: #74ccb8;
-	--button-color: #407871;
-	--button-border: #63c8b2;
-	
-	// note
-	
-	--code: #c11cc9;
-	--code-color: #6b1972;
-	--mark: #4b1356;
-	--table-border: #950fef;
-	--table-head: #710ad0;
-	--table-stripe: #6a0bd7;
+	--button: 			var(--matcha-azul-white);
+	--button-color: 	var(--matcha-azul-text);
+	--button-border: 	var(--matcha-azul-grey-6)
 }
