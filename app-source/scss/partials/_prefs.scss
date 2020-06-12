@@ -219,3 +219,28 @@ section {
 		}
 	}
 }
+
+[data-theme="matcha-azul"] {
+	
+	section {
+		
+		div {
+			
+			select {
+				
+				outline: none;
+			}
+			
+			input[type=range]::-webkit-slider-runnable-track {
+				
+				background: var(--accent);
+				box-shadow: inset 0 2px 0 var(--accent-dark);
+			}
+			
+			input:checked + .slider {
+				
+				background-color: #3478f6;
+			}
+		}
+	}
+}
