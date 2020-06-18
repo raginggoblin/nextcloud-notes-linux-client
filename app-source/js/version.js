@@ -57,7 +57,7 @@ module.exports = {
 		
 		$('main').append( details )
 		$('.version').delay(500).queue(function(){
-    		$(this).addClass( 'slidedown' ).dequeue();
+    		// $(this).addClass( 'slidedown' ).dequeue();
 		})
 	}
 }
