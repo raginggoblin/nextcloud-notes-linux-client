@@ -1,19 +1,17 @@
 # Nextcloud Notes Client
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT) ![GitHub package.json version](https://img.shields.io/github/package-json/v/dgmid/nextcloud-notes-mac-client) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/dgmid/nextcloud-notes-mac-client?label=latest%20release&logo=github)](https://github.com/dgmid/nextcloud-notes-mac-client/releases/latest) ![GitHub All Releases](https://img.shields.io/github/downloads/dgmid/nextcloud-notes-mac-client/total)
 
-A replacement for the Mac Notes app that syncs with a Nextcloud server running the Nextcloud Notes app
+A Notes app that syncs with a Nextcloud server running the Nextcloud Notes app
 
-![Nextcloud Notes Client in edit mode](https://user-images.githubusercontent.com/1267580/78501862-14557f00-775e-11ea-8c6a-8d5cf2ab9a83.png)
-<small>*Nextcloud Notes Client in edit mode (dark theme)*</small>
+This application is a fork of [Nextcloud Notes Client](https://github.com/dgmid/nextcloud-notes-mac-client) from [dgmid](https://github.com/dgmid)
+
+I changed the installer to let it run on Linux and added 2 themes (Matcha azul and Matcha sea) to make it look better on my Manjaro box.
+
+![Nextcloud Notes Client with Matcha sea theme](https://github.com/raginggoblin/nextcloud-notes-linux-client/raw/master/etc/screenshots/screenshot-matcha-sea.png)
+<small>*Nextcloud Notes Client (Matcha sea theme)*</small>
 
 ![Nextcloud Notes Client in edit mode](https://user-images.githubusercontent.com/1267580/78501864-1a4b6000-775e-11ea-8d7f-808181def3da.png)
-<small>*Nextcloud Notes Client in edit mode (light theme)*</small>
-
-![Nextcloud Notes Client in preview mode](https://user-images.githubusercontent.com/1267580/78501977-ea508c80-775e-11ea-881e-c22e4c7f2c53.png)
-<small>*Nextcloud Notes Client in preview mode (dark theme)*</small>
-
-![Nextcloud Notes Client in preview mode](https://user-images.githubusercontent.com/1267580/78501983-f0df0400-775e-11ea-9e56-1fa0b6ccbe34.png)
-<small>*Nextcloud Notes Client in preview mode (light theme)*</small>
+<small>*Original Nextcloud Notes Client in edit mode (light theme)*</small>
 
 ## Requirements
 
