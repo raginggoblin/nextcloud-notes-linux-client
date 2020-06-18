@@ -181,12 +181,13 @@ footer {
 	body { background-color: #383838; }
 }
 
-[data-theme="matcha-azul"] {
+[data-theme="matcha-azul"],
+[data-theme="matcha-sea"] {
 
   header {
 
-	color: var(--matcha-azul-text-light);
-	background-color: var(--matcha-azul-header);
+	color: var(--matcha-text-light);
+	background-color: var(--matcha-header);
   }
 
   .scroll {
@@ -203,12 +204,12 @@ footer {
 		input[type="text"],
 		input[type="number"] {
 
-		  border-color: var(--matcha-azul-grey-6);
+		  border-color: var(--matcha-grey-6);
 		  
 		  &:focus,
 		  &:active {
 			outline: none;
-			border-color: var(--matcha-azul-selected);
+			border-color: var(--matcha-selected);
 		  }
 		}
 	  }
@@ -220,18 +221,19 @@ footer {
 	  
 	    &:active,
 		&:focus {
-		  border-color: var(--matcha-azul-selected);
+		  border-color: var(--matcha-selected);
 		  border-style: solid;
 		  border-width: 1px;
-		  background-color: var(--matcha-azul-tabs);
-		  color: var(--matcha-azul-text);
+		  background-color: var(--matcha-tabs);
+		  color: var(--matcha-text);
 	    }
 	  }
 	}
   }
 }
 
-[data-user="matcha-azul"] {
+[data-user="matcha-azul"],
+[data-user="matcha-sea"] {
 
-  body { background-color: var(--matcha-azul-white); }
+  body { background-color: var(--matcha-white); }
 }

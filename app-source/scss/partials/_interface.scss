@@ -887,7 +887,8 @@ aside {
 		}
 	}
 	
-	[data-theme="matcha-azul"] {
+	[data-theme="matcha-azul"],
+	[data-theme="matcha-sea"] {
 		
 		main {
 			
@@ -896,7 +897,8 @@ aside {
 		}
 	}
 	
-	[data-user="matcha-azul"] {
+	[data-user="matcha-azul"],
+	[data-user="matcha-sea"] {
 		
 		footer {
 			
@@ -906,7 +908,8 @@ aside {
 	}
 }
 
-[data-theme="matcha-azul"] {
+[data-theme="matcha-azul"],
+[data-theme="matcha-sea"] {
 
   body {
 
@@ -915,13 +918,13 @@ aside {
 	}
 
 	::-webkit-scrollbar-thumb {
-	  background-color: var(--matcha-azul-scrollbar);
+	  background-color: var(--matcha-scrollbar);
 	  outline: 1px solid slategrey;
 	}
 	
 	::selection {
-	  color: var(--matcha-azul-text-light);
-	  background-color: var(--matcha-azul-selected);
+	  color: var(--matcha-text-light);
+	  background-color: var(--matcha-selected);
 	}
   }
 
@@ -932,7 +935,7 @@ aside {
 
   footer {
 
-	border-right: 1px solid var(--matcha-azul-sidebar);
+	border-right: 1px solid var(--matcha-sidebar);
 
 	li {
 	  margin-top: 3px;
@@ -950,19 +953,19 @@ aside {
 
 	  #search {
 
-		background-color: var(--matcha-azul-sidebar);
-		border: 1px solid var(--matcha-azul-sidebar);
-		color: var(--matcha-azul-text-lighter);
+		background-color: var(--matcha-sidebar);
+		border: 1px solid var(--matcha-sidebar);
+		color: var(--matcha-text-lighter);
 		height: 34px;
 		font-size: 16px;
 
 		&:focus {
 		  outline: none;
-		  border: 1px solid var(--matcha-azul-selected);
+		  border: 1px solid var(--matcha-selected);
 		}
 
 		&::placeholder {
-		  color: var(--matcha-azul-text-lighter);
+		  color: var(--matcha-text-lighter);
 		  opacity: 1;
 		}
 	  }
@@ -975,7 +978,7 @@ aside {
 
 	button {
 
-	  color: var(--matcha-azul-text-lighter);
+	  color: var(--matcha-text-lighter);
 	  font-size: 16px;
 	  line-height: 34px;
 
@@ -999,7 +1002,7 @@ aside {
 
 		padding: 0 10px 0 43px;
 		background-position: left 21px center;
-		border-left: 3px solid var(--matcha-azul-sidebar);
+		border-left: 3px solid var(--matcha-sidebar);
 
 		&#cat-none {
 
@@ -1008,14 +1011,14 @@ aside {
 
 		&:hover {
 
-		  background-color: var(--matcha-azul-sidebar-hover);
-		  border-left: 3px solid var(--matcha-azul-selected);
+		  background-color: var(--matcha-sidebar-hover);
+		  border-left: 3px solid var(--matcha-selected);
 		}
 
 		&.selected {
 
-		  background-color: var(--matcha-azul-selected);
-		  border-left: 3px solid var(--matcha-azul-selected);
+		  background-color: var(--matcha-selected);
+		  border-left: 3px solid var(--matcha-selected);
 
 		  &#cat-all {
 			background-image: var(--all-selected);
@@ -1038,19 +1041,19 @@ aside {
 
 		padding: 0 10px 0 43px;
 		background-position: left 21px center;
-		border-left: 3px solid var(--matcha-azul-sidebar);
+		border-left: 3px solid var(--matcha-sidebar);
 
 		&:hover {
 
-		  background-color: var(--matcha-azul-sidebar-hover);
-		  border-left: 3px solid var(--matcha-azul-selected);
+		  background-color: var(--matcha-sidebar-hover);
+		  border-left: 3px solid var(--matcha-selected);
 		}
 
 		&.selected {
 
 		  background-image: var(--category-selected);
-		  background-color: var(--matcha-azul-selected);
-		  border-left: 3px solid var(--matcha-azul-selected);
+		  background-color: var(--matcha-selected);
+		  border-left: 3px solid var(--matcha-selected);
 		}
 	  }
 	}
@@ -1059,36 +1062,36 @@ aside {
   main {
 	
 	background-image: unset;
-	background-color: var(--matcha-azul-sidebar);
+	background-color: var(--matcha-sidebar);
 
 	#edit {
 
 	  border: 0;
 	  background-image: var(--pencil-white);
-	  background-color: var(--matcha-azul-grey-4);
+	  background-color: var(--matcha-grey-4);
 	  opacity: 1;
 	  
 	  &:focus {
-		border: 1px solid var(--matcha-azul-selected);
+		border: 1px solid var(--matcha-selected);
 	  }
 
 	  &:hover {
-		background-color: var(--matcha-azul-grey-3);
+		background-color: var(--matcha-grey-3);
 	  }
 	}
 
 	#edit.editing {
 
 	  background-image: var(--save);
-	  background-color: var(--matcha-azul-grey-4);
+	  background-color: var(--matcha-grey-4);
 	  opacity: 1;
 
 	  &:focus {
-		border: 1px solid var(--matcha-azul-selected);
+		border: 1px solid var(--matcha-selected);
 	  }
 
 	  &:hover {
-		background-color: var(--matcha-azul-grey-3);
+		background-color: var(--matcha-grey-3);
 	  }
 	}
   }
@@ -1116,29 +1119,29 @@ aside {
 
 		.excerpt {
 
-		  color: var(--matcha-azul-text);
+		  color: var(--matcha-text);
 		}
 	  }
 
 	  .side-cat {
 
-		color: var(--matcha-azul-grey-7);
+		color: var(--matcha-grey-7);
 		background-image: var(--category-middlebar);
 	  }
 
 	  &:hover {
-		background-color: var(--matcha-azul-grey-1);
+		background-color: var(--matcha-grey-1);
 	  }
 
 	  &.selected {
 
-		background-color: var(--matcha-azul-selected);
+		background-color: var(--matcha-selected);
 
 		.side-title,
 		.side-text,
 		.side-cat,
 		.excerpt {
-		  color: var(--matcha-azul-text-light);
+		  color: var(--matcha-text-light);
 		}
 
 		.side-cat {
@@ -1154,46 +1157,46 @@ aside {
 
   .editor-toolbar {
 
-	background-color: var(--matcha-azul-sidebar);
+	background-color: var(--matcha-sidebar);
 
 	i {
-	  background-color: var(--matcha-azul-text-lighter);
+	  background-color: var(--matcha-text-lighter);
 	}
 
 	button {
 
 	  &:hover {
 
-		background-color: var(--matcha-azul-sidebar-hover);
-		border-color: var(--matcha-azul-sidebar-hover);
+		background-color: var(--matcha-sidebar-hover);
+		border-color: var(--matcha-sidebar-hover);
 	  }
 
 	  &:focus {
 		outline: none;
-		border: 1px solid var(--matcha-azul-selected);
+		border: 1px solid var(--matcha-selected);
 	  }
 	  
 	  &.active {
-		border: 1px solid var(--matcha-azul-header);
-		background-color: var(--matcha-azul-sidebar-hover);
+		border: 1px solid var(--matcha-header);
+		background-color: var(--matcha-sidebar-hover);
 	  }
 	}
 
 	i.separator {
 
-	  border-left: var(--matcha-azul-text-lighter);
-	  border-right-color: var(--matcha-azul-text-lighter);
+	  border-left: var(--matcha-text-lighter);
+	  border-right-color: var(--matcha-text-lighter);
 	}
   }
 
   .CodeMirror {
 
 	background-image: unset;
-	background-color: var(--matcha-azul-tabs);
+	background-color: var(--matcha-tabs);
 
 	::selection {
-	  color: var(--matcha-azul-text-light);
-	  background-color: var(--matcha-azul-selected);
+	  color: var(--matcha-text-light);
+	  background-color: var(--matcha-selected);
 	}
 
 	.CodeMirror-cursor {
@@ -1209,19 +1212,20 @@ aside {
   }
   
   .editor-preview-active {
-	background-color: var(--matcha-azul-white);
+	background-color: var(--matcha-white);
   }
 }
 
-[data-user="matcha-azul"] {
+[data-user="matcha-azul"],
+[data-user="matcha-sea"] {
 
   footer {
 
-	background-color: var(--matcha-azul-sidebar);
+	background-color: var(--matcha-sidebar);
   }
 
   aside {
 
-	background-color: var(--matcha-azul-white)
+	background-color: var(--matcha-white)
   }
 }

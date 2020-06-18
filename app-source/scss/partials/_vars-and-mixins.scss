@@ -124,36 +124,35 @@
 	--table-stripe:			rgba(255,255,255,.03);
 }
 
-[data-theme^="matcha-azul"] {
+[data-theme^="matcha-azul"],
+[data-theme^="matcha-sea"] {
 	
 	// common
 	
 	--text:					#2e313d;
 	--text-lighter:			#c6cbcf;
 	--text-light:			#ffffff;
-	--app-color-focus:		#3498db;
 	--dividers:				#72757d;
 	--header-border:		#72757d;
 
 	// theme colors from nautilus
-	--matcha-azul-text:				#2e313d;
-	--matcha-azul-text-lighter:		#c6cbcf;
-	--matcha-azul-text-light:		#ffffff;
-	--matcha-azul-sidebar:			#30343e;
-	--matcha-azul-sidebar-hover:	#454a54;
-	--matcha-azul-header:			#1b1d24;
-	--matcha-azul-selected: 		#3498db;
-	--matcha-azul-white:			#ffffff;
-	--matcha-azul-tabs:				#f7f7f7;
-  	--matcha-azul-scrollbar: 		#d0d1d3;
-  	--matcha-azul-search:	 		#333641;
-	--matcha-azul-grey-1:			#f6fbff;
-	--matcha-azul-grey-2:			#e6ebef;
-	--matcha-azul-grey-3:			#d6dbdf;
-	--matcha-azul-grey-4:			#c6cbcf;
-	--matcha-azul-grey-5:			#b6bbbf;
-	--matcha-azul-grey-6:			#a6abaf;
-	--matcha-azul-grey-7:			#969b9f;
+	--matcha-text:				#2e313d;
+	--matcha-text-lighter:		#c6cbcf;
+	--matcha-text-light:		#ffffff;
+	--matcha-sidebar:			#30343e;
+	--matcha-sidebar-hover:	#454a54;
+	--matcha-header:			#1b1d24;
+	--matcha-white:			#ffffff;
+	--matcha-tabs:				#f7f7f7;
+  	--matcha-scrollbar: 		#d0d1d3;
+  	--matcha-search:	 		#333641;
+	--matcha-grey-1:			#f6fbff;
+	--matcha-grey-2:			#e6ebef;
+	--matcha-grey-3:			#d6dbdf;
+	--matcha-grey-4:			#c6cbcf;
+	--matcha-grey-5:			#b6bbbf;
+	--matcha-grey-6:			#a6abaf;
+	--matcha-grey-7:			#969b9f;
 	
 	// toolbar
 	
@@ -168,16 +167,36 @@
 	
 	// modal
 	
-	--window:						var(--matcha-azul-white);
-	--input-color: 					var(--matcha-azul-text);
-	--input-border: 				var(--matcha-azul-grey-6);
-	--input-background: 			var(--matcha-azul-white);
-	--select: 						var(--matcha-azul-white);
-	--select-border: 				var(--matcha-azul-grey-6);
+	--window:						var(--matcha-white);
+	--input-color: 					var(--matcha-text);
+	--input-border: 				var(--matcha-grey-6);
+	--input-background: 			var(--matcha-white);
+	--select: 						var(--matcha-white);
+	--select-border: 				var(--matcha-grey-6);
 	
 	// buttons
 	
-	--button: 			var(--matcha-azul-white);
-	--button-color: 	var(--matcha-azul-text);
-	--button-border: 	var(--matcha-azul-grey-6)
+	--button: 			var(--matcha-white);
+	--button-color: 	var(--matcha-text);
+	--button-border: 	var(--matcha-grey-6)
+}
+
+[data-theme^="matcha-azul"] {
+	
+	// common
+	
+	--app-color-focus:		#3498db;
+
+	// theme colors from nautilus
+	--matcha-selected: 		#3498db;
+}
+
+[data-theme^="matcha-sea"] {
+	
+	// common
+	
+	--app-color-focus:		#33b297;
+
+	// theme colors from nautilus
+	--matcha-selected: 		#33b297;
 }
