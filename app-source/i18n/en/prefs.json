@@ -12,7 +12,8 @@
       "light": "light",
       "dark": "dark",
       "matcha": {
-        "azul": "Matcha azul"
+        "azul": "Matcha azul",
+        "sea": "Matcha sea"
       }
     },
     "label": {
