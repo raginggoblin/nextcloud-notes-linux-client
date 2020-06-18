@@ -1,0 +1,8 @@
+[Desktop Entry]
+version=1.0
+Type=Application
+Exec=/opt/nextcloud-notes-client/Nextcloud\ Notes\ Client
+Terminal=false
+Name=Nextcloud Notes Client
+Comment=Access and edit your Nextcloud Notes on Linux
+Icon=/opt/nextcloud-notes-client/icon.png

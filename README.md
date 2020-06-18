@@ -19,11 +19,12 @@ A replacement for the Mac Notes app that syncs with a Nextcloud server running t
 
 [node.js / npm](https://www.npmjs.com/get-npm)
 
-To build this project you will need to install **electron packager** and **asar**
+To build this project you will need to install ***gulp***, **electron packager** and **asar**
 
 ```shell
 npm install -g electron-packager
 npm install -g asar
+npm install -g gulp
 ```
 
 ## Usage
@@ -47,7 +48,15 @@ To package the final app run:
 ```shell
 npm run package
 ```
-The packaged app will be written to `build/Nextcloud Notes Client-darwin-x64/` in the project directory.
+The packaged app will be written to `build/Nextcloud Notes Client-linux-x64/` in the project directory.
+
+To install the final app:
+```
+sudo cp -r build/Nextcloud\ Notes\ Client-linux-x64/* /opt/nextcloud-notes-client/ &&\
+sudo cp etc/icon.png /opt/nextcloud-notes-client/ &&\
+sudo cp etc/nextcloud\ notes\ client.desktop /usr/share/applications/
+```
+
 
 ## i18n
 Translations for this app are by:
