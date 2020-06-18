@@ -10,7 +10,7 @@
     "package": "gulp build; npm prune -production; electron-packager . --asar=true --electron-version=9.0.0 --overwrite --platform=linux --arch=x64 --icon=dist/assets/icon/icon.png --ignore=\"app-source|gulpfile\\.js|README\\.md\" --prune=false --out=build --darwinDarkModeSupport=true; npm install;"
   },
   "author": {
-    "name": "D.G. Midwinter",
+    "name": "D.G. Midwinter, Raging Goblin",
     "email": "duncan@midwinter-dg.com",
     "url": "https://www.midwinter-dg.com"
   },
