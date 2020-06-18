@@ -17,7 +17,7 @@ I changed the installer to let it run on Linux and added 2 themes (Matcha azul a
 
 [node.js / npm](https://www.npmjs.com/get-npm)
 
-To build this project you will need to install ***gulp***, **electron packager** and **asar**
+To build this project you will need to install **gulp**, **electron packager** and **asar**
 
 ```shell
 npm install -g electron-packager
