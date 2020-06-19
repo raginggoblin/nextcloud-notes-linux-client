@@ -50,6 +50,7 @@ The packaged app will be written to `build/Nextcloud Notes Client-linux-x64/` in
 
 To install the final app:
 ```
+sudo mkdir /opt/nextcloud-notes-client &&\
 sudo cp -r build/Nextcloud\ Notes\ Client-linux-x64/* /opt/nextcloud-notes-client/ &&\
 sudo cp etc/icon.png /opt/nextcloud-notes-client/ &&\
 sudo cp etc/nextcloud\ notes\ client.desktop /usr/share/applications/
