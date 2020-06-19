@@ -457,11 +457,13 @@ function toggleEditorCheckboxes( element ) {
 
 function saveDialog( selected ) {
 	
-	let response = dialog.showMessageBoxSync(remote.getCurrentWindow(), {
-					message: i18n.t('app:dialog.save.title', 'You have made changes to this note'),
-					detail: i18n.t('app:dialog.save.text', 'Do you want to save them?'),
-					buttons: [i18n.t('app:dialog.button.savechanges', 'Save changes'), i18n.t('app:dialog.button.cancel', 'Cancel')]
-				})
+	let response = 0 
+		
+		// dialog.showMessageBoxSync(remote.getCurrentWindow(), {
+		// 			message: i18n.t('app:dialog.save.title', 'You have made changes to this note'),
+		// 			detail: i18n.t('app:dialog.save.text', 'Do you want to save them?'),
+		// 			buttons: [i18n.t('app:dialog.button.savechanges', 'Save changes'), i18n.t('app:dialog.button.cancel', 'Cancel')]
+		// 		})
 	
 	if( response === 0 ) {
 		
